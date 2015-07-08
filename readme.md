@@ -39,7 +39,7 @@ Creates a toolbar with a search box inside of it. This should be used for creati
 
 ### Properties
 
-- title (string)
+- **title (string)**
 Sets the title that appears on the website
 ```html
 <Header title = 'Header example' />
