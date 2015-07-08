@@ -1,6 +1,6 @@
 # Components
 
-- [Header]('/#header')
+- [Header]('#header')
 - [Card]()
   - [Card]()
   - [Card Title]()
