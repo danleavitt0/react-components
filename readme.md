@@ -31,24 +31,21 @@ Then use the the components like HTML elements.
 ```
 
 ## Header
-<a href='#header'></a>
+<a name='header'/>
 Creates a toolbar with a search box inside of it. This should be used for creating the top navigation bar for your website.
-
-### How to use it
-
 ```html
 <Header />
 ```
 
 ### Properties
 
-- #### title (string)
+- title (string)
 Sets the title that appears on the website
 ```html
 <Header title = 'Header example' />
 ```
 
-- #### style (object)
+- style (object)
 Overwrites the default styles of the Header element
 ```html
 <Header style = {styles.header} />
@@ -66,9 +63,9 @@ Creates the outer card container. All of the information for the card should be 
 </Card>
 ```
 
-#### Properties
+### Properties
 
-- ##### style (object)
+- style (object)
 Overwrites the default styles of the component
 ```html
 <Card style = {styles.card}>
@@ -84,9 +81,9 @@ Creates a title bar inside of the card. The CardTitle has a default color of 'to
 </Card>
 ```
 
-#### Properties
+### Properties
 
-- ##### content (string)
+- content (string)
 The text that should be displayed in the title of the card
 ```html
 <Card>
@@ -94,7 +91,7 @@ The text that should be displayed in the title of the card
 </Card>
 ```
 
-- ##### style (object)
+- style (object)
 Overwrites the default styles of the component
 ```html
 <Card>
@@ -123,13 +120,13 @@ Creates a grid layout for displaying information. This component needs to be sup
 
 ### Properties
 
-- #### cards (array)
+- cards (array)
 An array of cards that should be displayed in the column layout
 ```html
 <ColumnLayout cards = {this.cards} />
 ```
 
-- #### width (number)
+- width (number)
 A number that sets how wide each column is
 ```html
 <ColumnLayout cards = {this.cards} width = {350} />
