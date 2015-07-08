@@ -1,11 +1,11 @@
 # Components
 
 - [Header](#header)
-- [Card]()
+- [Card](#card)
   - [Card]()
-  - [Card Title]()
-  - [Card Content]()
-- [ColumnLayout]()
+  - [Card Title](#cardtitle)
+  - [Card Content](#cardcontent)
+- [ColumnLayout](#columnlayout)
 
 ## Get Started
 
@@ -30,7 +30,7 @@ Then use the the components like HTML elements.
 </div>
 ```
 
-## Header
+# Header
 <a name='header'/>
 Creates a toolbar with a search box inside of it. This should be used for creating the top navigation bar for your website.
 ```html
@@ -51,11 +51,11 @@ Overwrites the default styles of the Header element
 <Header style = {styles.header} />
 ```
 
-## Card
-
+# Card
+<a name='card'/>
 Creates a card for displaying information. A card should normally be created using three elements: `Card`, `CardTitle`, and `CardContent`
 
-### Card
+## Card
 Creates the outer card container. All of the information for the card should be inside of the `Card` element.
 ```html
 <Card>
@@ -73,7 +73,8 @@ Overwrites the default styles of the component
 </Card>
 ```
 
-### CardTitle
+## CardTitle
+<a name='cardtitle'/>
 Creates a title bar inside of the card. The CardTitle has a default color of 'tomato'
 ```html
 <Card>
@@ -99,7 +100,8 @@ Overwrites the default styles of the component
 </Card>
 ```
 
-### CardContent
+## CardContent
+<a name='cardcontent'/>
 This element creates an area to store the information for the card.
 ```html
 <Card>
@@ -111,7 +113,8 @@ This element creates an area to store the information for the card.
 </Card>
 ```
 
-## ColumnLayout
+# ColumnLayout
+<a name='columnlayout'/>
 Creates a grid layout for displaying information. This component needs to be supplied with an array of react components to be displayed.
 
 ```html
