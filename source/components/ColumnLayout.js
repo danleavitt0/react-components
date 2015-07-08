@@ -6,7 +6,6 @@ import _ from 'lodash'
 function getColumnNumber (colWidth) {
   var cols
   var width = window.innerWidth
-  console.log(colWidth)
 
   if (width < colWidth*2 + 100) {
     cols = 1
