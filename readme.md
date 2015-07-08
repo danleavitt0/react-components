@@ -40,13 +40,15 @@ Creates a toolbar with a search box inside of it. This should be used for creati
 ### Properties
 
 - **title (string)**
-Sets the title that appears on the website
+
+  Sets the title that appears on the website
 ```html
 <Header title = 'Header example' />
 ```
 
-- style (object)
-Overwrites the default styles of the Header element
+- **style (object)**
+
+  Overwrites the default styles of the Header element
 ```html
 <Header style = {styles.header} />
 ```
@@ -65,8 +67,9 @@ Creates the outer card container. All of the information for the card should be 
 
 ### Properties
 
-- style (object)
-Overwrites the default styles of the component
+- **style (object)**
+
+  Overwrites the default styles of the component
 ```html
 <Card style = {styles.card}>
   Content
@@ -84,16 +87,18 @@ Creates a title bar inside of the card. The CardTitle has a default color of 'to
 
 ### Properties
 
-- content (string)
-The text that should be displayed in the title of the card
+- **content (string)**
+
+  The text that should be displayed in the title of the card
 ```html
 <Card>
   <CardTitle content = 'Example Title' />
 </Card>
 ```
 
-- style (object)
-Overwrites the default styles of the component
+- **style (object)**
+
+  Overwrites the default styles of the component
 ```html
 <Card>
   <CardTitle style = {styles.cardTitle} />
@@ -123,14 +128,15 @@ Creates a grid layout for displaying information. This component needs to be sup
 
 ### Properties
 
-- cards (array)
-An array of cards that should be displayed in the column layout
+- **cards (array)**
+
+  An array of cards that should be displayed in the column layout
 ```html
 <ColumnLayout cards = {this.cards} />
 ```
 
-- width (number)
-A number that sets how wide each column is
+- **width (number)**
+  A number that sets how wide each column is
 ```html
 <ColumnLayout cards = {this.cards} width = {350} />
 ```
